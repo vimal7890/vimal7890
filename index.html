@@ -15,7 +15,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: white;
             min-height: 100vh;
         }
 
@@ -29,14 +29,14 @@
         .header {
             text-align: center;
             padding: 60px 0;
-            color: white;
+            color: #333;
         }
 
         .header h1 {
             font-size: 3.5em;
             font-weight: 300;
             margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            text-shadow: none;
         }
 
         .header .subtitle {
@@ -49,8 +49,8 @@
         .content {
             background: white;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-            margin: -30px auto 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.05);
+            margin: 0 auto 40px;
             overflow: hidden;
         }
 
@@ -153,8 +153,6 @@
             padding: 20px;
             color: #555;
             line-height: 1.7;
-            border-left: 4px solid #667eea;
-            margin-left: 20px;
         }
 
         /* Work section */
@@ -206,7 +204,7 @@
 
         /* Resume section */
         .resume-section {
-            text-align: center;
+            text-align: left;
             background: linear-gradient(135deg, #f8f9ff, #ffffff);
         }
 
@@ -221,7 +219,9 @@
             font-size: 1.1em;
             box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
             transition: all 0.3s ease;
-            margin-top: 20px;
+            margin: 20px auto 0;
+            display: block;
+            width: fit-content;
         }
 
         .download-btn:hover {
@@ -304,8 +304,8 @@
     <div class="container">
         <!-- Header -->
         <div class="header">
-            <h1>Vimal</h1>
-            <div class="subtitle">International Politics Graduate • Data Enthusiast • Researcher</div>
+            <h1>Vimal Vivegananda</h1>
+            <div class="subtitle">International Politics Graduate • Data Enthusiast</div>
         </div>
 
         <!-- Main Content -->
@@ -323,9 +323,9 @@
                         <div class="interest-tags">
                             <span class="tag">Data Visualisation</span>
                             <span class="tag">International Politics</span>
+                            <span class="tag">Financial Data Analytics</span>
                             <span class="tag">Historical Research</span>
                             <span class="tag">Policy Analysis</span>
-                            <span class="tag">Geopolitics</span>
                         </div>
                     </div>
                 </div>
@@ -364,12 +364,6 @@
                         <h3>Censorship Tracker</h3>
                         <p>Analysed voting patterns and demographic trends using statistical tools, creating interactive visualisations to illustrate key findings about electoral behaviour.</p>
                         <a href="https://censorship.my" class="work-link" target="_blank">View Project →</a>
-                    </div>
-                    
-                    <div class="work-item">
-                        <h3>Historical Research Paper</h3>
-                        <p>In-depth research on Cold War diplomatic strategies and their influence on modern international relations, featuring original archival research and policy analysis.</p>
-                        <a href="#" class="work-link">Read Paper →</a>
                     </div>
                     
                     <div class="work-item">
